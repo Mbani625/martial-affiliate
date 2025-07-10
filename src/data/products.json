@@ -1,0 +1,32 @@
+[
+  {
+    "id": "gloves-001",
+    "title": "Elite Sparring Gloves",
+    "desc": "Durable gloves for advanced sparring and heavy use.",
+    "image": "https://via.placeholder.com/200x200.png?text=Sparring+Gloves",
+    "link": "https://www.amazon.com/dp/example-gloves",
+    "category": "competition",
+    "brand": "Hayabusa",
+    "sport": "Karate"
+  },
+  {
+    "id": "gi-002",
+    "title": "Lightweight BJJ Gi",
+    "desc": "Perfect for beginners and competition day.",
+    "image": "https://via.placeholder.com/200x200.png?text=Lightweight+Gi",
+    "link": "https://www.amazon.com/dp/example-gi",
+    "category": ["beginner", "apparel"],
+    "brand": "Sanabul",
+    "sport": "BJJ"
+  },
+  {
+    "id": "gi-003",
+    "title": "Lightweight BJJ Gi",
+    "desc": "Perfect for beginners and competition day.",
+    "image": "https://via.placeholder.com/200x200.png?text=Lightweight+Gi",
+    "link": "https://www.amazon.com/dp/example-gi",
+    "category": ["competition", "apparel"],
+    "brand": "Sanabul",
+    "sport": "BJJ"
+  }
+]

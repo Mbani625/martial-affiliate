@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #111;
+  color: #f2f2f2;
+}
+
+a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  padding: 1rem;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.site-header,
+.site-footer {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+}
+
+.site-header nav a {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #e63946;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.product-card a {
+  margin-top: 0.5rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #f1c40f;
+  color: #111;
+  border-radius: 6px;
+}
+
+.filter-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  background: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid #f1c40f;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background: #f1c40f;
+  color: black;
+}
+
+.filter-selects {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-selects select {
+  padding: 0.5rem 1rem;
+  background: #222;
+  color: white;
+  border: 1px solid #f1c40f;
+  border-radius: 4px;
+}

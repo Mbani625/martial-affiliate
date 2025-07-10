@@ -1,0 +1,20 @@
+[
+  {
+    "id": "glove-review",
+    "title": "Hayabusa T3 Gloves Review",
+    "category": "Gear Reviews",
+    "date": "2025-07-10",
+    "intro": "Tested for 3 weeks in full-contact sparring. Here's how they held up.",
+    "content": "These gloves are incredibly well-built. The dual wrist strap provides solid support, and the padding doesn't break down too quickly. Ideal for daily use...",
+    "productId": "gloves-001"
+  },
+  {
+    "id": "gi-buyers-guide",
+    "title": "Best Lightweight Gis for Beginners",
+    "category": "Training Apparel",
+    "date": "2025-07-08",
+    "intro": "You don’t need a $200 gi to start BJJ. Here are 3 tested options under $100.",
+    "content": "We tested 5 gis under $120 and found that Sanabul and Elite deliver solid construction for beginners. They breathe well, don’t shrink much, and cost a fraction of competition-grade brands...",
+    "productId": "gi-002"
+  }
+]
