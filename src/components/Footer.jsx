@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="site-footer">
       <p>
-        &copy; {new Date().getFullYear()} Martial Market. Affiliate links may
+        &copy; {new Date().getFullYear()} CombatGearCo. Affiliate links may
         apply.
       </p>
     </footer>

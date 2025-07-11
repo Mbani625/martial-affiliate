@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="site-header">
-      <h1>Martial Market</h1>
+      <h1>CombatGearCo</h1>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
