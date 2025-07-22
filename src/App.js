@@ -7,6 +7,10 @@ import Shop from "./pages/Shop";
 import About from "./pages/About";
 import BlogList from "./blog/BlogList";
 import BlogPost from "./blog/BlogPost";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import AffiliateDisclosure from "./pages/AffiliateDisclosure";
+import TrainingResources from "./pages/TrainingResources";
+import BeginnerGuide from "./pages/BeginnerGuide";
 
 import "./styles/main.css";
 
@@ -22,6 +26,10 @@ function App() {
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/about" element={<About />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
+            <Route path="/resources" element={<TrainingResources />} />
+            <Route path="/beginner-guide" element={<BeginnerGuide />} />
           </Routes>
         </main>
         <Footer />

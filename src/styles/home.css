@@ -5,6 +5,33 @@
   margin-top: 2rem;
 }
 
+.trust-banner {
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-left: 4px solid #f1c40f;
+  max-width: 60%;
+  border-radius: 8px;
+  text-align: left;
+  color: #f2f2f2;
+}
+
+.trust-banner h2 {
+  margin-bottom: 1rem;
+  color: #f1c40f;
+}
+
+.trust-banner ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.trust-banner li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+
 .blog-feature {
   width: 80%;
   background: #1a1a1a;

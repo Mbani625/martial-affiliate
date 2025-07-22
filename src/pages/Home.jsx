@@ -31,9 +31,17 @@ function Home() {
   return (
     <section className="container">
       <section className="home">
-        <h2>Welcome to Martial Market</h2>
-        <p>Your trusted source for curated martial arts gear and guides.</p>
-
+      <div className="trust-banner">
+        <h2>Why Trust CombatGearCo?</h2>
+        <ul>
+          <li>🎯 We only feature gear we’d use in our own training.</li>
+          <li>🥋 Built by real martial artists — not just marketers.</li>
+          <li>🔍 We break down sizing, safety, and quality — no fluff.</li>
+          <li>🤝 You get honest picks, not paid hype.</li>
+          <li>This site uses affiliate links. As an Amazon Associate, we may earn from qualifying purchases.{" "}
+        <Link to="/affiliate-disclosure">Learn more</Link>.</li>
+        </ul>
+      </div>
         <div className="blog-feature with-image">
           <div className="blog-text">
             <h3>🔥 Most Popular Blog Post</h3>
